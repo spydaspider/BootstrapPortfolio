@@ -1,0 +1,71 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    
+}
+li{
+    list-style-type: none;
+
+}
+p{
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #344563;
+}
+#headline {
+    background: url("images/header-shapes\ mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 718px;
+    
+  }
+  .t-m-c{
+    margin-top: 3.5em;
+    
+}
+.cwd{
+    width: 80%;
+}
+.media-icons ul{
+    display: flex;
+    gap: 1.2em;
+    padding:0;
+    margin-top: 1.5em;
+
+}
+@media screen and (min-width: 766px)
+{
+    #headline {
+    background-image: url("images/Header\ bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    height: 800px;
+        
+      } 
+   
+   
+}
+  @media screen and (max-width: 766px){
+    
+      #headline{
+
+    background-size: cover;
+
+    
+  }
+}
+  @media screen and (max-width: 455px){
+    
+    #headline{
+
+  background-size: contain;
+
+  
+}
+  
+}
