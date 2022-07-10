@@ -9,6 +9,20 @@ li{
     list-style-type: none;
 
 }
+a{
+    text-decoration: none;
+}
+h4{
+    color:#172B4D;
+    font-weight: 700;
+}
+#headline h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091E42;
+}
 p{
 font-weight: 400;
 font-size: 20px;
@@ -22,18 +36,33 @@ color: #344563;
     height: 718px;
     
   }
+  .works{
+    margin-top: 5em;
+  }
   .t-m-c{
     margin-top: 3.5em;
     
+}
+.list-container ul{
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    width: 80%;
+}
+.base-links ul{
+    display: flex;
+    padding: 0;
+    width: 50%;
+    justify-content: space-between;
 }
 .cwd{
     width: 80%;
 }
 .media-icons ul{
     display: flex;
-    gap: 1.2em;
     padding:0;
     margin-top: 1.5em;
+    gap: 1em;
 
 }
 @media screen and (min-width: 766px)
