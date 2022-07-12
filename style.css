@@ -42,6 +42,7 @@ color: #344563;
     height: 718px;
     
   }
+
   .background-image{
     background: url("images/contact\ form\ shapes-mobile@2x.png");
     background-repeat: no-repeat;
@@ -112,6 +113,14 @@ h3{
     background-position: center;
     height: 800px;
         } 
+        .background-image{
+          background: #1a30ff;
+          background-image: url("images/contact\ form\ background\ shapes@2x.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          height: 846px;
+        }
    
    
 }
@@ -121,7 +130,9 @@ h3{
       font-family: Poppins, Arial, Helvetica, sans-serif;
       
      }
-
+     
+     
+  
   
      
     
