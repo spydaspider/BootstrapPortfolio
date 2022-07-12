@@ -23,11 +23,17 @@ h4{
     line-height: 60px;
     color: #091E42;
 }
+#headline h3{
+  color: #091E42;
+}
 p{
 font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 color: #344563;
+}
+.tr-radius{
+  border-top-left-radius: 70px;
 }
 #headline {
     background: url("images/header-shapes\ mobile.png");
@@ -36,12 +42,43 @@ color: #344563;
     height: 718px;
     
   }
+  .background-image{
+    background: url("images/contact\ form\ shapes-mobile@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  .general-flex ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em;
+    padding: 0;
+  }
   .works{
     margin-top: 5em;
   }
   .t-m-c{
     margin-top: 3.5em;
     
+}
+.langv{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+   margin-top: 10em;
+}
+.c-w{
+  font-size: 40px;
+  width: 250px;
+}
+.frame{
+  display: flex;
+  justify-content: space-between;
+}
+.skill{
+  display: flex;
+  justify-content: space-between;
 }
 .list-container ul{
     justify-content: space-between;
@@ -74,12 +111,19 @@ color: #344563;
     width: 100%;
     background-position: center;
     height: 800px;
-        
-      } 
+        } 
    
    
 }
   @media screen and (max-width: 766px){
+    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    *{
+      font-family: Poppins, Arial, Helvetica, sans-serif;
+      
+     }
+
+  
+     
     
       #headline{
 
