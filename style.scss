@@ -1,0 +1,158 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "node_modules/bootstrap/scss/bootstrap";
+*{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#172B4D;
+    font-weight: 700;
+}
+
+#headline h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091E42;
+}
+p{
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #344563;
+}
+.tr-radius{
+  border-top-left-radius: 70px;
+}
+#headline {
+    background: url("images/header-shapes\ mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 718px;
+    
+  }
+
+  .background-image{
+    background: url("images/contact\ form\ shapes-mobile@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  .general-flex ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em;
+    padding: 0;
+  }
+  .works{
+    margin-top: 5em;
+  }
+  .t-m-c{
+    margin-top: 3.5em;
+    
+}
+.langv{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+   margin-top: 10em;
+}
+.t-m-c-d{
+  margin-top: 10em;
+
+}
+.c-w{
+  font-size: 40px;
+  width: 250px;
+}
+.frame{
+  display: flex;
+  justify-content: space-between;
+}
+.skill{
+  display: flex;
+  justify-content: space-between;
+}
+.list-container ul{
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    width: 80%;
+}
+.base-links ul{
+    display: flex;
+    padding: 0;
+    width: 50%;
+    justify-content: space-between;
+}
+.cwd{
+    width: 80%;
+}
+.media-icons ul{
+    display: flex;
+    padding:0;
+    margin-top: 1.5em;
+    gap: 1em;
+
+}
+@media screen and (min-width: 766px)
+{
+    #headline {
+    background-image: url("images/Header\ bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    height: 800px;
+        } 
+        .background-image{
+          background: #1a30ff;
+          background-image: url("images/contact\ form\ background\ shapes@2x.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          height: 846px;
+        }
+   
+   
+}
+  @media screen and (max-width: 766px){
+    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    *{
+      font-family: Poppins, Arial, Helvetica, sans-serif;
+      
+     }
+     
+     
+  
+  
+     
+    
+      #headline{
+
+    background-size: cover;
+
+    
+  }
+}
+  @media screen and (max-width: 455px){
+    
+    #headline{
+
+  background-size: contain;
+
+  
+}
+  
+}
